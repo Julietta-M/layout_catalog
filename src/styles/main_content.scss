@@ -1,8 +1,12 @@
 .main__content {
-  width: 1024px;
-  display: flex;
+  // width: 1024px;
+  // display: flex;
+  display: grid;
   justify-content: center;
+  justify-items: center;
   align-items: center;
-  flex-wrap: wrap;
+  grid-template-columns: repeat(4, 200px);
+  // flex-wrap: wrap;
   margin: 0 auto;
+  grid-gap: 48px;
 }
